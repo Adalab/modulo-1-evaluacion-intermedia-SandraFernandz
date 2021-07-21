@@ -52,6 +52,10 @@ p {
 .space {
   width: 20px;
 }
+
+a:link {
+  color: #4a4a4a;
+}
 @media all and (min-width: 768px) {
   .header {
     display: flex;
