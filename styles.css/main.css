@@ -1,5 +1,6 @@
 :root {
   --font-family: "Rubik", sans-serif;
+  --color-grey: #4a4a4a;
 }
 
 .header {
@@ -32,7 +33,7 @@ p {
 
 .item {
   font-size: 16px;
-  color: #4a4a4a;
+  color: var(--color-grey);
   font-weight: bold;
   font-family: var(--font-family);
 }
@@ -54,7 +55,7 @@ p {
 }
 
 a:link {
-  color: #4a4a4a;
+  color: var(--color-grey);
 }
 @media all and (min-width: 768px) {
   .header {
