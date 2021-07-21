@@ -1,11 +1,18 @@
+:root {
+  --font-family: "Rubik", sans-serif;
+}
+
 .header {
+  font-family: var(--font-family);
   border: 2px solid grey;
   position: fixed;
   width: 100vw;
   height: 120px;
   top: 0;
+  position: absolute;
 }
 .main {
+  top: 120px;
   border: 2px solid pink;
   width: 100vw;
   height: 100vh;
@@ -15,4 +22,24 @@
   justify-content: center;
   align-items: center;
   background-color: #3cdbc0;
+}
+p {
+  font-family: var(--font-family);
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.item {
+  font-size: 16px;
+  color: #4a4a4a;
+  font-weight: bold;
+  font-family: var(--font-family);
+}
+.image {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
