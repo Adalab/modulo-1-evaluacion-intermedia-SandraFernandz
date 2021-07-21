@@ -1,0 +1,18 @@
+.header {
+  border: 2px solid grey;
+  position: fixed;
+  width: 100vw;
+  height: 120px;
+  top: 0;
+}
+.main {
+  border: 2px solid pink;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3cdbc0;
+}
