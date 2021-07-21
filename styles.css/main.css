@@ -4,7 +4,6 @@
 
 .header {
   font-family: var(--font-family);
-  border: 2px solid grey;
   position: fixed;
   width: 100vw;
   height: 120px;
@@ -13,7 +12,7 @@
 }
 .main {
   top: 120px;
-  border: 2px solid pink;
+
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -42,4 +41,22 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.nav {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.space {
+  width: 20px;
+}
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
