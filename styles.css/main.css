@@ -78,7 +78,7 @@ a:link {
     margin-bottom: 20px;
     margin-left: 30px;
   }
-  .menu {
+  .menu { 
     display: flex;
     flex-direction: row;
     justify-content: center;
