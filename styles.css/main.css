@@ -1,6 +1,7 @@
 :root {
   --font-family: "Rubik", sans-serif;
   --color-grey: #4a4a4a;
+  --font-size: 16px;
 }
 
 .header {
@@ -13,7 +14,6 @@
 }
 .main {
   top: 120px;
-
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -23,20 +23,28 @@
   align-items: center;
   background-color: #3cdbc0;
 }
-p {
-  font-family: var(--font-family);
-  color: #ffffff;
+
+.message {
   font-size: 30px;
-  font-weight: bold;
-  padding: 5px;
+  /*aumenta la largada del párrafo (block element) de manera que sigue en la línea siguiente*/
+  width: 8em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: var(--font-family);
 }
 
 .item {
-  font-size: 16px;
+  font-size: var(--font-size);
   color: var(--color-grey);
   font-weight: bold;
   font-family: var(--font-family);
+  /*elimina el subrayado del enlace*/
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px;
 }
+
 .image {
   padding-top: 10px;
   display: flex;
@@ -44,8 +52,9 @@ p {
   justify-content: center;
 }
 .nav {
-  padding-top: 10px;
-  padding-bottom: 15px;
+   /*eliminar bolitas de lista*/
+  list-style-type: none;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,6 +72,7 @@ a:link {
     flex-direction: row;
     justify-content: space-between;
   }
+  
   .image {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -75,7 +85,10 @@ a:link {
     align-items: center;
     margin-right: 30px;
   }
-  .item2 {
+  .item {
     margin-right: 30px;
+  }
+    .message {
+    font-size: 40px;
   }
 }
