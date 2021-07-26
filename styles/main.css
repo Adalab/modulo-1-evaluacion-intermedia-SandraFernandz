@@ -60,6 +60,12 @@
   flex-direction: row;
   justify-content: center;
 }
+/*añade padding alrededor de los enlaces para que sea más clickable*/
+a {
+  display: block;
+  padding: 15px;
+}
+
 .space {
   width: 20px;
 }
