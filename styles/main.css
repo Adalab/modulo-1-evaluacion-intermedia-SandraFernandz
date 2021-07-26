@@ -1,4 +1,5 @@
 :root {
+  /*la fuente podemos ponerla en el body para que la herede. en este caso he querido usar la fuente como variable*/
   --font-family: "Rubik", sans-serif;
   --color-grey: #4a4a4a;
   --font-size: 16px;
@@ -52,7 +53,7 @@
   justify-content: center;
 }
 .nav {
-   /*eliminar bolitas de lista*/
+  /*eliminar bolitas de lista*/
   list-style-type: none;
   margin-top: 50px;
   display: flex;
@@ -72,13 +73,13 @@ a:link {
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .image {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 30px;
   }
-  .menu { 
+  .menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -88,7 +89,7 @@ a:link {
   .item {
     margin-right: 30px;
   }
-    .message {
+  .message {
     font-size: 40px;
   }
 }

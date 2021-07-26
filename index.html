@@ -15,17 +15,31 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
+    <!-- dentro de img etiqueta title- muestra texto cd mouse está sobre la imagen -->
     <header class="header">
       <div class="image">
-        <a href="https://adalab.es/"
-          ><img src="./images/adalab-logo-155x61.png" alt="logo adalab"
+        <a href="https://adalab.es/" title="Logo de Adalab"
+          ><img
+            src="./images/adalab-logo-155x61.png"
+            title="Logo de Adalab"
+            alt="Logo Adalab"
         /></a>
       </div>
       <nav>
         <ul class="nav">
-          <li><a href="https://adalab.es/blog/" class="item">Blog</a></li>
           <li>
-            <a href="https://adalab.es/contacto/" class="item">Contacto</a>
+            <a href="https://adalab.es/blog/" class="item" title="Nuestro Blog"
+              >Blog</a
+            >
+          </li>
+          <!-- title también se usa en etiquetas <a></a> para cd el puntero se posa sobre el enlace -->
+          <li>
+            <a
+              href="https://adalab.es/contacto/"
+              class="item"
+              title="Contacta con nosotros"
+              >Contacto</a
+            >
           </li>
         </ul>
       </nav>
