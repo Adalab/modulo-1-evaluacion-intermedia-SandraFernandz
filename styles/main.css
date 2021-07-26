@@ -27,7 +27,8 @@
 
 .message {
   font-size: 30px;
-  /*aumenta la largada del párrafo (block element) de manera que sigue en la línea siguiente*/
+  /*aumenta la largada del párrafo (block element) de manera que sigue en la línea siguiente 
+  otra opción sería width: 10ch; ancho= 10 carácteres, tras lo cual hay salto de linea.*/
   width: 8em;
   text-align: center;
   text-transform: capitalize;
